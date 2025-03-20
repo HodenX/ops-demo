@@ -1,0 +1,42 @@
+# Cursor Rules
+
+## Memory Bank
+每次会话开始时，必须先阅读所有memory-bank文件夹中的文档，以获取项目完整情境。
+
+## 编码规范
+- 使用TypeScript进行开发
+- 遵循React函数组件和Hooks写法
+- 客户端组件使用"use client"标记
+- 文件采用PascalCase命名方式（组件）
+- 变量和函数采用camelCase命名方式
+- 禁止使用any类型，尽量提供明确的类型定义
+
+## UI框架
+- 首选使用Ant Design组件库
+- 使用Tailwind CSS进行样式定制
+- 组件样式遵循项目现有风格
+
+## 工作流程
+- 新功能开发前先了解现有代码结构
+- 尽量复用现有组件和模式
+- 保持与现有代码风格一致
+- 提交前确保代码没有类型错误
+
+## 项目特定注意事项
+- 使用pnpm作为包管理器
+- 保持布局的一致性，遵循已建立的布局模式
+- 新页面需要集成到现有导航系统中
+- 使用模拟数据进行功能开发
+
+## Lessons
+
+### User Specified Lessons
+- always use Ant Design first
+- always use pnpm first
+
+### Cursor learned
+
+
+## Scratchpad
+
+### 当前任务： 
