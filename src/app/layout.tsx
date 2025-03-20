@@ -20,8 +20,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OPS Demo",
+  title: "百度智能云运维平台",
   description: "OPS Demo",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

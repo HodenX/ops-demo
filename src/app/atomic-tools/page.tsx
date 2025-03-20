@@ -72,31 +72,31 @@ export default function AtomicTools() {
     // 模拟数据
     const mockData: PluginItem[] = [
       {
-        pluginName: "文件检查工具",
+        pluginName: "os-plugin",
         remark: "检查服务器文件权限与配置，确保符合安全基线要求",
         baselineItemCount: 5,
         pluginVersionId: 1,
       },
       {
-        pluginName: "日志分析工具",
+        pluginName: "log-plugin",
         remark: "分析系统日志并生成报告，用于故障诊断和安全审计",
         baselineItemCount: 3,
         pluginVersionId: 2,
       },
       {
-        pluginName: "网络诊断工具",
+        pluginName: "network-plugin",
         remark: "检测网络连接状态与问题，包括延迟、丢包率和连接质量",
         baselineItemCount: 0,
         pluginVersionId: 3,
       },
       {
-        pluginName: "服务监控工具",
+        pluginName: "service-monitor-plugin",
         remark: "监控服务状态和资源使用，支持主动告警和自动化处理",
         baselineItemCount: 8,
         pluginVersionId: 4,
       },
       {
-        pluginName: "数据备份工具",
+        pluginName: "backup-plugin",
         remark: "自动备份关键数据，支持增量备份和定时任务调度",
         baselineItemCount: 2,
         pluginVersionId: 5,
