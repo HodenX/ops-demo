@@ -11,13 +11,6 @@ interface CreateBaselineModalProps {
 
 const { TextArea } = Input;
 
-const baselineTypeOptions = [
-  { value: '扩容基线', label: '扩容基线' },
-  { value: '轮转基线', label: '轮转基线' },
-  { value: '容灾基线', label: '容灾基线' },
-  { value: '自定义基线', label: '自定义基线' },
-];
-
 export default function CreateBaselineModal({ open, onCancel, onSuccess }: CreateBaselineModalProps) {
   const [form] = Form.useForm();
   const [loading, setLoading] = useState(false);
